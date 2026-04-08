@@ -1,4 +1,4 @@
-local M = {}
+ocal M = {}
 
 function M.setup(p)
   local set = vim.api.nvim_set_hl
