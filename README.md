@@ -10,20 +10,27 @@ I created this colorscheme for myself when I say people I inspire - [Rexim](http
 
 **Note**: I created this colorscheme for my C/C++ development workflow and I've only tested this colorscheme in C, C++, Assembly, Lua, Bash and RC files.
 
-
 ---
 
 ## Installation:
 
-The installation for this colorscheme is something that I wouldn't really call straight forward, since I didn't go for a one-file configuration. So, here are the steps:
+1. Lazy.nvim:
 
-- Clone the repository:
-
-```bash
-git clone https://github.com/bavajitu/brellary.nvim.git
+```lua
+return {
+    {
+        "bavajitu/brellary.nvim",
+        lazy = false,
+        priority = 1000,
+        config = function()
+            vim.cmd.colorscheme("brellary")
+        end,
+    },
+}
 ```
 
-- Move the contents of `/brellary` into `$HOME/.config/nvim/brellary/`.
-- Move contents of `/lua` into `$HOME/.config/nvim/lua/` or make sure you match your existing configuration and copy the contents accordingly.
-- Finally, create a `$HOME/.config/nvim/colors/brellary.lua` inorder to actually initiate and tell Neovim that Brellary is a colorscheme that we want to use.
-- Load and enjoy your new colorscheme!
+2. Vim Plug
+
+```vim
+Plug "bavajitu/brellary.nvim"
+```
