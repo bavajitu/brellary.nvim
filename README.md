@@ -10,7 +10,6 @@ I created this colorscheme for myself when I say people I inspire - [Rexim](http
 
 **Note**: I created this colorscheme for my C/C++ development workflow and I've only tested this colorscheme in C, C++, Assembly, Lua, Bash and RC files.
 
-![brellary](images/brellary.png)
 
 ---
 
