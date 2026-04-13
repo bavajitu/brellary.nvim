@@ -35,8 +35,8 @@ function M.setup(p)
 	set(0, "Type", { fg = p.purple })
 	set(0, "Special", { fg = p.cyan })
 
-	set(0, "PreProc", { fg = p.purple })
-	set(0, "Include", { fg = p.purple })
+	set(0, "PreProc", { fg = p.yellow })
+	set(0, "Include", { fg = p.yellow })
 
 	set(0, "Operator", { fg = p.fg_dim })
 
@@ -49,6 +49,7 @@ function M.setup(p)
 	-- Treesitter (basic)
 	set(0, "@variable", { fg = p.fg })
 	set(0, "@function", { fg = p.blue })
+	set(0, "@function.call", { fg = p.yellow })
 	set(0, "@keyword", { fg = p.blue })
 	set(0, "@string", { fg = p.orange })
 	set(0, "@type", { fg = p.purple })
