@@ -92,9 +92,9 @@ function M.setup(p)
 
 	-- Markdown
 	set(0, "@markup.heading", { fg = p.purple, bold = true })
-	set(0, "@markup.heading.1", { fg = p.blue, bold = true })
-	set(0, "@markup.heading.2", { fg = p.cyan })
-	set(0, "@markup.heading.3", { fg = p.fg })
+	set(0, "@markup.heading.1", { fg = p.purple, bold = true })
+	set(0, "@markup.heading.2", { fg = p.blue })
+	set(0, "@markup.heading.3", { fg = p.cyan })
 
 	set(0, "@markup.italic", { italic = true })
 	set(0, "@markup.bold", { bold = true })
