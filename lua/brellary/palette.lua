@@ -3,20 +3,20 @@ local M = {}
 function M.get()
 	return {
 		bg = "none",
-		fg = "#b8b8b8",
-		fg_dim = "#8e8e8e",
-		fg_muted = "#6e6e6e",
+		fg = "#d0d0d0",
+		fg_dim = "#a8a8a8",
+		fg_muted = "#888888",
 
-		red = "#a06a6a",
-		orange = "#9a8268",
-		yellow = "#a39a6a",
-		green = "#6f8f6f",
-		cyan = "#6f8a8a",
-		blue = "#6f7f96",
-		purple = "#807896",
+		red = "#c17878",
+		orange = "#c09a6f",
+		yellow = "#c8c06f",
+		green = "#7fb07f",
+		cyan = "#7faeae",
+		blue = "#7f96b8",
+		purple = "#9a8fb8",
 
-		comment = "#5a5f5f",
-		selection = "#2f2f2f",
+		comment = "#707777",
+		selection = "#3a3a3a",
 	}
 end
 
