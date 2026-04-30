@@ -4,20 +4,23 @@ function M.get()
 	return {
 		bg = "none",
 
-		fg = "#d8d8d8",
-		fg_dim = "#9c9c9c",
-		fg_muted = "#6f6f6f",
+		-- foreground hierarchy (compressed contrast)
+		fg = "#c6c6c6",
+		fg_dim = "#8a8a8a",
+		fg_muted = "#5c5c5c",
 
-		red = "#c17878",
-		orange = "#c09a6f",
-		yellow = "#c8c06f",
-		green = "#7fb07f",
-		cyan = "#7faeae",
-		blue = "#7f96b8",
-		purple = "#9a8fb8",
+		-- fully muted accents (reduced saturation + lowered brightness)
+		red = "#a06a6a",
+		orange = "#9a7a5f",
+		yellow = "#a39a5f",
+		green = "#6f8f6f",
+		cyan = "#6f8f8f",
+		blue = "#6f7f9a",
+		purple = "#857a9a",
 
-		comment = "#5f6368", -- neutral gray (no cyan bias)
-		selection = "#444444", -- stronger presence
+		-- background elements
+		comment = "#4a4d52", -- pushed further into background
+		selection = "#2f2f2f", -- less glare, still visible
 	}
 end
 
