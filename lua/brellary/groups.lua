@@ -66,10 +66,10 @@ function M.setup(p)
 	set(0, "Operator", { fg = p.fg_dim })
 
 	-- Diagnostics
-	set(0, "DiagnosticError", { fg = p.red, undercurl = true })
-	set(0, "DiagnosticWarn", { fg = p.orange, undercurl = true })
-	set(0, "DiagnosticInfo", { fg = p.blue, undercurl = true })
-	set(0, "DiagnosticHint", { fg = p.green, undercurl = true })
+	set(0, "DiagnosticError", { fg = p.red })
+	set(0, "DiagnosticWarn", { fg = p.orange })
+	set(0, "DiagnosticInfo", { fg = p.blue })
+	set(0, "DiagnosticHint", { fg = p.green })
 
 	-- Treesitter (extended C/C++)
 	set(0, "@variable", { fg = p.fg })
