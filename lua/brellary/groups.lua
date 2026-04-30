@@ -8,7 +8,7 @@ function M.setup(p)
 	set(0, "NormalFloat", { fg = p.fg, bg = "none" })
 	set(0, "FloatBorder", { fg = p.fg_muted, bg = "none" })
 
-	set(0, "CursorLine", { bg = "#1c1c1c" })
+	set(0, "CursorLine", { bg = "none" })
 	set(0, "CursorLineNr", { fg = p.fg, bg = "none" })
 	set(0, "LineNr", { fg = p.fg_muted, bg = "none" })
 
