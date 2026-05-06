@@ -14,8 +14,8 @@ function M.setup(p)
 	set(0, "PmenuThumb", { bg = p.blue })
 
 	-- Search
-	set(0, "Search", { bg = p.yellow, fg = "none" })
-	set(0, "IncSearch", { bg = p.orange, fg = "none" })
+	set(0, "Search", { bg = "#bfa75f", fg = "#000000" })
+	set(0, "IncSearch", { bg = "#e6c384", fg = "#1a1a1a" })
 
 	-- Matching brackets
 	set(0, "MatchParen", { bg = p.selection, bold = true })
@@ -50,7 +50,7 @@ function M.setup(p)
 	set(0, "Boolean", { fg = p.purple })
 
 	set(0, "Identifier", { fg = p.fg })
-	set(0, "Function", { fg = p.blue })
+	set(0, "Function", { fg = p.cyan })
 
 	set(0, "Statement", { fg = p.blue })
 	set(0, "Keyword", { fg = p.blue, italic = true })
@@ -66,10 +66,10 @@ function M.setup(p)
 	set(0, "Operator", { fg = p.fg_dim })
 
 	-- Diagnostics
-	set(0, "DiagnosticError", { fg = p.red })
-	set(0, "DiagnosticWarn", { fg = p.orange })
-	set(0, "DiagnosticInfo", { fg = p.blue })
-	set(0, "DiagnosticHint", { fg = p.green })
+	set(0, "DiagnosticError", { fg = "#b06a6a" })
+	set(0, "DiagnosticWarn", { fg = "#b08a5a" })
+	set(0, "DiagnosticInfo", { fg = "#6a8ab0" })
+	set(0, "DiagnosticHint", { fg = "#6a9a6a" })
 
 	-- Treesitter (extended C/C++)
 	set(0, "@variable", { fg = p.fg })

@@ -5,9 +5,9 @@ function M.get()
 		bg = "none",
 
 		-- foreground hierarchy (further reduced contrast)
-		fg = "#b8b8b8",
-		fg_dim = "#7a7a7a",
-		fg_muted = "#4f4f4f",
+		fg = "#c8c8c8",
+		fg_dim = "#8a8a8a",
+		fg_muted = "#5a5a5a",
 
 		-- accents (more desaturated, darker, less chroma)
 		red = "#8f5f5f",
@@ -19,8 +19,8 @@ function M.get()
 		purple = "#786f8a",
 
 		-- background elements (pushed deeper)
-		comment = "#3f4246",
-		selection = "#262626",
+		comment = "#50545a",
+		selection = "#303030",
 	}
 end
 
