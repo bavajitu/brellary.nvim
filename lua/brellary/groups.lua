@@ -15,7 +15,7 @@ function M.setup(p)
 
 	-- Search
 	set(0, "Search", { bg = "#bfa75f", fg = "#000000" })
-	set(0, "IncSearch", { bg = "#e6c384", fg = "#1a1a1a" })
+	set(0, "IncSearch", { bg = "#e6c384", fg = "#1a1a1a", bold = true })
 
 	-- Matching brackets
 	set(0, "MatchParen", { bg = p.selection, bold = true })
