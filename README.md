@@ -10,7 +10,9 @@ I created this colorscheme for myself when I say people I inspire - [Rexim](http
 - No neon colors like that in Tokyonight and Nightfox
 - I should be able to visually separate the various components/functions of my programs clearly.
 
-**Note**: I created this colorscheme for my C/C++ development workflow and I've only tested this colorscheme in C, C++, Assembly, Lua, Bash and RC files.
+**Note 1**: Even though this colorscheme's groups configuration has been modified for C, C++, LaTeX and Markdown. Proper syntax highlighting for Rust or other languages is not guaranteed and any advice for the colorscheme for any particular language is appreciated. Also, you are free to clone this repository, modify it to your needs and use it for your self.
+
+**Note 2**: The undercurls/underlines haven't been defined in the colorscheme itself as it might over-write or cause issues with the existing config. Therefore, it's recommended to configure the undercurls or underlines manually in the `options.lua` file.
 
 ---
 
