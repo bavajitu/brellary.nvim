@@ -37,4 +37,9 @@ return {
 Plug "bavajitu/brellary.nvim"
 ```
 
+## Screenshots
+
+![Screenshot 1](./images/image_1.png)
+![Screenshot 2](./images/image_2.png)
+
 Have a great day!
